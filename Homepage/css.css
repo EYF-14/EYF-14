@@ -1,0 +1,109 @@
+.navbar {
+    overflow: hidden;
+    background-color:lavender;
+    position: fixed;
+    top: 0;
+    width: 110%;
+    margin-left: -10px;
+    padding-left: 5%;
+    border-bottom: 1px solid darkgrey ;
+  }
+
+.button{
+    background-color:tomato;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 4px 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+}
+.button:hover {
+    background-color: lightsalmon;
+}
+
+.main_controls {
+    width: 75%;
+    height: 86%;
+    background-color: red;
+    margin: auto; 
+    margin-top: 5%;
+    margin-bottom: 5%;   
+}
+
+.vluchtinformatie {
+    width: 20%;
+    height: 45%;
+    background-color: pink;
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.media {
+    width: 20%;
+    height: 45%;
+    background-color: blue;
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.stoelbediening {
+    width: 20%;
+    height: 45%;
+    background-color: yellow;
+    display: inline-block;
+    float: left;    
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.workstation {
+    width: 20%;
+    height: 45%;
+    background-color: silver;
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.ebooks {
+    width: 20%;
+    height: 45%;
+    background-color: silver;
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.shop {
+    width: 20%;
+    height: 45%;
+    background-color: silver;
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.games {
+    width: 20%;
+    height: 45%;
+    background-color: silver;
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.weer {
+    width: 20%;
+    height: 45%;
+    background-color: silver;
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
