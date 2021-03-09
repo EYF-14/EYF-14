@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <div class="container">
+            <h1>WELCOME TO TULIP AIR VIDEO GALLERY</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="feature-img">
+                        <img src="Media/Borat.jpg" width="100%">
+                        <img src="Media/play.svg" class="play-btn"
+                        onclick="playVideo('Media/Borat 2 trailer.mp4')">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="Media/the social network.jpg">
+                            <img src="Media/play.svg" class="play-btn">
+                        </div>
+                        <p>Enjoy watching The Social Network</p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="Media/Da vinci code.jpg">
+                            <img src="Media/play.svg" class="play-btn">
+                        </div>
+                        <p>Enjoy watching the Da Vinci Code</p>
+                    </div>
+                    <div class="small-img-row">
+                        <div class="small-img">
+                            <img src="Media/Bob the bouwer.jpg">
+                            <img src="Media/play.svg" class="play-btn">
+                        </div>
+                        <p>Enjoy watching Bob the Bouwer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-player" id="videoPlayer">
+            <video width="100%" controls autoplay id="myVideo">
+                <source src="Media/Borat 2 trailer.mp4" type="video/mp4">
+            </video>
+            <img src="Media/close.svg" class="close-btn" onclick="stopVideo()">
+        </div>
+
+<script>
+    var videoPlayer = document.getElementById("videoPlayer");
+    var myVideo = document.getElementById("myVideo");
+
+    function stopVideo(){
+
+        videoPlayer.style.display="none";
+
+    }
+
+    function playVideo(file){
+        myVideo.src = file;
+        videoPlayer.style.display = "block";
+    }
+
+</script>
+
+</body>
+</html>
